@@ -1,0 +1,1493 @@
+[
+  {
+    "name": "ATM ACB Bank",
+    "lat": 21.00841,
+    "lon": 105.85263,
+    "type": "atm",
+    "snap_m": 12.4
+  },
+  {
+    "name": "ATM Agribank",
+    "lat": 20.99744,
+    "lon": 105.85012,
+    "type": "atm",
+    "snap_m": 4.5
+  },
+  {
+    "name": "ATM BIDV",
+    "lat": 20.99488,
+    "lon": 105.85721,
+    "type": "atm",
+    "snap_m": 21.2
+  },
+  {
+    "name": "ATM MB CRM",
+    "lat": 20.99786,
+    "lon": 105.86771,
+    "type": "atm",
+    "snap_m": 32.7
+  },
+  {
+    "name": "ATM Ngân hàng Vietcombank",
+    "lat": 21.01335,
+    "lon": 105.85782,
+    "type": "atm",
+    "snap_m": 19.6
+  },
+  {
+    "name": "ATM Phòng giao dịch ngân hàng TMCP ngoại thương Việt Nam",
+    "lat": 21.00162,
+    "lon": 105.84507,
+    "type": "atm",
+    "snap_m": 11.8
+  },
+  {
+    "name": "ATM TPBank LiveBank 24/7",
+    "lat": 21.0112,
+    "lon": 105.85952,
+    "type": "atm",
+    "snap_m": 6.1
+  },
+  {
+    "name": "ATM Techcombank CDM",
+    "lat": 20.99489,
+    "lon": 105.86907,
+    "type": "atm",
+    "snap_m": 14.2
+  },
+  {
+    "name": "ATM VPBank CDM",
+    "lat": 21.00938,
+    "lon": 105.85146,
+    "type": "atm",
+    "snap_m": 12.2
+  },
+  {
+    "name": "ATM Vietcombank - Chi nhánh Hoàn Kiếm - PGD Bạch Mai",
+    "lat": 21.00216,
+    "lon": 105.85103,
+    "type": "atm",
+    "snap_m": 5.3
+  },
+  {
+    "name": "ATM Vietcombank - Ngân hàng TMCP ngoại thương Việt Nam",
+    "lat": 21.00179,
+    "lon": 105.86098,
+    "type": "atm",
+    "snap_m": 19.0
+  },
+  {
+    "name": "ATM Vikki Bank",
+    "lat": 21.00281,
+    "lon": 105.85892,
+    "type": "atm",
+    "snap_m": 12.1
+  },
+  {
+    "name": "ABBank",
+    "lat": 21.0141,
+    "lon": 105.84989,
+    "type": "bank",
+    "snap_m": 10.6
+  },
+  {
+    "name": "Bac A Bank",
+    "lat": 21.01501,
+    "lon": 105.84989,
+    "type": "bank",
+    "snap_m": 13.4
+  },
+  {
+    "name": "Eximbank",
+    "lat": 21.01387,
+    "lon": 105.85103,
+    "type": "bank",
+    "snap_m": 6.8
+  },
+  {
+    "name": "GPBank",
+    "lat": 21.01216,
+    "lon": 105.85041,
+    "type": "bank",
+    "snap_m": 13.3
+  },
+  {
+    "name": "HDBank",
+    "lat": 21.01224,
+    "lon": 105.84912,
+    "type": "bank",
+    "snap_m": 15.5
+  },
+  {
+    "name": "NH ACB",
+    "lat": 21.00935,
+    "lon": 105.85039,
+    "type": "bank",
+    "snap_m": 15.1
+  },
+  {
+    "name": "NH MB",
+    "lat": 21.01895,
+    "lon": 105.85907,
+    "type": "bank",
+    "snap_m": 17.7
+  },
+  {
+    "name": "NH MBV",
+    "lat": 21.01332,
+    "lon": 105.85105,
+    "type": "bank",
+    "snap_m": 18.4
+  },
+  {
+    "name": "NH MSB",
+    "lat": 21.01788,
+    "lon": 105.84727,
+    "type": "bank",
+    "snap_m": 18.2
+  },
+  {
+    "name": "NH SHB",
+    "lat": 21.00881,
+    "lon": 105.85122,
+    "type": "bank",
+    "snap_m": 18.9
+  },
+  {
+    "name": "NH Timo Hangout",
+    "lat": 21.01053,
+    "lon": 105.85143,
+    "type": "bank",
+    "snap_m": 12.5
+  },
+  {
+    "name": "NH VIB",
+    "lat": 21.0177,
+    "lon": 105.8472,
+    "type": "bank",
+    "snap_m": 21.5
+  },
+  {
+    "name": "NH Western Union",
+    "lat": 21.00182,
+    "lon": 105.84543,
+    "type": "bank",
+    "snap_m": 12.7
+  },
+  {
+    "name": "PVcomBank",
+    "lat": 21.01473,
+    "lon": 105.84989,
+    "type": "bank",
+    "snap_m": 8.0
+  },
+  {
+    "name": "Sacombank",
+    "lat": 21.00518,
+    "lon": 105.84706,
+    "type": "bank",
+    "snap_m": 9.1
+  },
+  {
+    "name": "Saigonbank",
+    "lat": 20.99354,
+    "lon": 105.84321,
+    "type": "bank",
+    "snap_m": 7.8
+  },
+  {
+    "name": "SeABank",
+    "lat": 21.00072,
+    "lon": 105.85058,
+    "type": "bank",
+    "snap_m": 5.3
+  },
+  {
+    "name": "TPBank",
+    "lat": 21.00185,
+    "lon": 105.84265,
+    "type": "bank",
+    "snap_m": 8.0
+  },
+  {
+    "name": "Techcombank",
+    "lat": 21.01358,
+    "lon": 105.85124,
+    "type": "bank",
+    "snap_m": 16.5
+  },
+  {
+    "name": "VPBank",
+    "lat": 20.9993,
+    "lon": 105.86977,
+    "type": "bank",
+    "snap_m": 12.7
+  },
+  {
+    "name": "Vietcombank",
+    "lat": 21.00924,
+    "lon": 105.85645,
+    "type": "bank",
+    "snap_m": 17.6
+  },
+  {
+    "name": "VietinBank",
+    "lat": 21.00891,
+    "lon": 105.85902,
+    "type": "bank",
+    "snap_m": 3.8
+  },
+  {
+    "name": "3am Coffee & Tea",
+    "lat": 21.01246,
+    "lon": 105.85043,
+    "type": "cafe",
+    "snap_m": 11.0
+  },
+  {
+    "name": "Aha Cafe",
+    "lat": 21.01361,
+    "lon": 105.85045,
+    "type": "cafe",
+    "snap_m": 7.5
+  },
+  {
+    "name": "An Coffee",
+    "lat": 21.01182,
+    "lon": 105.8503,
+    "type": "cafe",
+    "snap_m": 6.4
+  },
+  {
+    "name": "An Cà Phê",
+    "lat": 21.01361,
+    "lon": 105.84988,
+    "type": "cafe",
+    "snap_m": 7.0
+  },
+  {
+    "name": "Brobusta Coffee",
+    "lat": 21.01657,
+    "lon": 105.84984,
+    "type": "cafe",
+    "snap_m": 9.0
+  },
+  {
+    "name": "Bống Cafe & Juice",
+    "lat": 21.01063,
+    "lon": 105.84979,
+    "type": "cafe",
+    "snap_m": 15.0
+  },
+  {
+    "name": "Cafe 15",
+    "lat": 21.01518,
+    "lon": 105.85081,
+    "type": "cafe",
+    "snap_m": 13.5
+  },
+  {
+    "name": "Cafe 177",
+    "lat": 21.01244,
+    "lon": 105.84912,
+    "type": "cafe",
+    "snap_m": 11.9
+  },
+  {
+    "name": "Cafe 54",
+    "lat": 21.01677,
+    "lon": 105.85036,
+    "type": "cafe",
+    "snap_m": 10.5
+  },
+  {
+    "name": "Cafe Ah Ma Handmade",
+    "lat": 21.00991,
+    "lon": 105.84982,
+    "type": "cafe",
+    "snap_m": 22.3
+  },
+  {
+    "name": "Cafe Bánh Mỳ",
+    "lat": 21.01533,
+    "lon": 105.85041,
+    "type": "cafe",
+    "snap_m": 9.4
+  },
+  {
+    "name": "Cafe CaCa FeFe",
+    "lat": 21.01456,
+    "lon": 105.85044,
+    "type": "cafe",
+    "snap_m": 15.0
+  },
+  {
+    "name": "Cafe Café 65",
+    "lat": 21.01315,
+    "lon": 105.84826,
+    "type": "cafe",
+    "snap_m": 12.9
+  },
+  {
+    "name": "Cafe Café Hương",
+    "lat": 21.01521,
+    "lon": 105.84932,
+    "type": "cafe",
+    "snap_m": 9.4
+  },
+  {
+    "name": "Cafe Chốn",
+    "lat": 21.01287,
+    "lon": 105.84986,
+    "type": "cafe",
+    "snap_m": 12.1
+  },
+  {
+    "name": "Cafe Culture Station Thong nhat Park",
+    "lat": 21.01574,
+    "lon": 105.84739,
+    "type": "cafe",
+    "snap_m": 76.8
+  },
+  {
+    "name": "Cafe Ding Tea",
+    "lat": 21.01744,
+    "lon": 105.8471,
+    "type": "cafe",
+    "snap_m": 15.6
+  },
+  {
+    "name": "Cafe Hisakawa",
+    "lat": 21.01273,
+    "lon": 105.85044,
+    "type": "cafe",
+    "snap_m": 20.2
+  },
+  {
+    "name": "Cafe Hoàng Tùng",
+    "lat": 21.014,
+    "lon": 105.85045,
+    "type": "cafe",
+    "snap_m": 11.2
+  },
+  {
+    "name": "Cafe Hương",
+    "lat": 21.0146,
+    "lon": 105.85044,
+    "type": "cafe",
+    "snap_m": 9.7
+  },
+  {
+    "name": "Cafe Hồng Trà Ngô Gia",
+    "lat": 20.9941,
+    "lon": 105.84969,
+    "type": "cafe",
+    "snap_m": 5.9
+  },
+  {
+    "name": "Cafe Juice Corner",
+    "lat": 21.01685,
+    "lon": 105.84982,
+    "type": "cafe",
+    "snap_m": 8.5
+  },
+  {
+    "name": "Cafe KOI Thé",
+    "lat": 21.01148,
+    "lon": 105.85091,
+    "type": "cafe",
+    "snap_m": 20.9
+  },
+  {
+    "name": "Cafe Kafa Café",
+    "lat": 21.01041,
+    "lon": 105.84933,
+    "type": "cafe",
+    "snap_m": 15.6
+  },
+  {
+    "name": "Cafe Katinat",
+    "lat": 21.00172,
+    "lon": 105.84503,
+    "type": "cafe",
+    "snap_m": 9.4
+  },
+  {
+    "name": "Cafe Lãm",
+    "lat": 21.01352,
+    "lon": 105.85061,
+    "type": "cafe",
+    "snap_m": 11.3
+  },
+  {
+    "name": "Cafe Lộc",
+    "lat": 21.01529,
+    "lon": 105.85093,
+    "type": "cafe",
+    "snap_m": 8.0
+  },
+  {
+    "name": "Cafe Mixue",
+    "lat": 20.99858,
+    "lon": 105.87334,
+    "type": "cafe",
+    "snap_m": 9.8
+  },
+  {
+    "name": "Cafe Mộc",
+    "lat": 21.00575,
+    "lon": 105.84565,
+    "type": "cafe",
+    "snap_m": 21.6
+  },
+  {
+    "name": "Cafe Năng",
+    "lat": 21.01324,
+    "lon": 105.85045,
+    "type": "cafe",
+    "snap_m": 9.1
+  },
+  {
+    "name": "Cafe O TreeCoffe",
+    "lat": 21.02024,
+    "lon": 105.8429,
+    "type": "cafe",
+    "snap_m": 9.1
+  },
+  {
+    "name": "Cafe Park Lane",
+    "lat": 20.99802,
+    "lon": 105.86665,
+    "type": "cafe",
+    "snap_m": 15.0
+  },
+  {
+    "name": "Cafe Peach City",
+    "lat": 21.01535,
+    "lon": 105.8492,
+    "type": "cafe",
+    "snap_m": 11.1
+  },
+  {
+    "name": "Cafe Rosier",
+    "lat": 21.01311,
+    "lon": 105.84825,
+    "type": "cafe",
+    "snap_m": 7.2
+  },
+  {
+    "name": "Cafe Starbucks",
+    "lat": 21.01056,
+    "lon": 105.84907,
+    "type": "cafe",
+    "snap_m": 8.1
+  },
+  {
+    "name": "Cafe The Alley",
+    "lat": 21.0102,
+    "lon": 105.84953,
+    "type": "cafe",
+    "snap_m": 14.9
+  },
+  {
+    "name": "Cafe The Sipping Bar",
+    "lat": 21.00799,
+    "lon": 105.84487,
+    "type": "cafe",
+    "snap_m": 47.0
+  },
+  {
+    "name": "Cafe Thọ",
+    "lat": 21.01405,
+    "lon": 105.85045,
+    "type": "cafe",
+    "snap_m": 13.0
+  },
+  {
+    "name": "Cafe TocoToco",
+    "lat": 21.01151,
+    "lon": 105.84982,
+    "type": "cafe",
+    "snap_m": 15.5
+  },
+  {
+    "name": "Cafe Toàn",
+    "lat": 21.01367,
+    "lon": 105.85045,
+    "type": "cafe",
+    "snap_m": 9.2
+  },
+  {
+    "name": "Cafe Trà Sữa 172",
+    "lat": 21.01255,
+    "lon": 105.85043,
+    "type": "cafe",
+    "snap_m": 11.1
+  },
+  {
+    "name": "Cafe URI Dessert",
+    "lat": 21.01497,
+    "lon": 105.85043,
+    "type": "cafe",
+    "snap_m": 9.2
+  },
+  {
+    "name": "Cafe Wehome - Ms Tram",
+    "lat": 21.01063,
+    "lon": 105.84973,
+    "type": "cafe",
+    "snap_m": 14.0
+  },
+  {
+    "name": "Cafe Yi He Tang",
+    "lat": 21.01201,
+    "lon": 105.84983,
+    "type": "cafe",
+    "snap_m": 9.1
+  },
+  {
+    "name": "Cafe Yutang",
+    "lat": 20.99619,
+    "lon": 105.86906,
+    "type": "cafe",
+    "snap_m": 16.9
+  },
+  {
+    "name": "Cheese Coffee",
+    "lat": 21.01189,
+    "lon": 105.84821,
+    "type": "cafe",
+    "snap_m": 13.7
+  },
+  {
+    "name": "Citi Coffee",
+    "lat": 21.01508,
+    "lon": 105.84919,
+    "type": "cafe",
+    "snap_m": 12.5
+  },
+  {
+    "name": "Coffee 26",
+    "lat": 21.01528,
+    "lon": 105.85041,
+    "type": "cafe",
+    "snap_m": 9.8
+  },
+  {
+    "name": "Coffee 42",
+    "lat": 21.01702,
+    "lon": 105.84889,
+    "type": "cafe",
+    "snap_m": 10.2
+  },
+  {
+    "name": "Coffee Chi",
+    "lat": 21.013,
+    "lon": 105.85044,
+    "type": "cafe",
+    "snap_m": 11.8
+  },
+  {
+    "name": "Coffee Hải Anh",
+    "lat": 21.01063,
+    "lon": 105.84975,
+    "type": "cafe",
+    "snap_m": 13.9
+  },
+  {
+    "name": "Coffee Mạc Tộc",
+    "lat": 21.0152,
+    "lon": 105.84971,
+    "type": "cafe",
+    "snap_m": 16.0
+  },
+  {
+    "name": "Coffee Mặn",
+    "lat": 21.01556,
+    "lon": 105.85092,
+    "type": "cafe",
+    "snap_m": 6.9
+  },
+  {
+    "name": "Cà Phê 36",
+    "lat": 21.01885,
+    "lon": 105.84155,
+    "type": "cafe",
+    "snap_m": 11.0
+  },
+  {
+    "name": "Cà Phê ABC",
+    "lat": 21.00345,
+    "lon": 105.85494,
+    "type": "cafe",
+    "snap_m": 9.6
+  },
+  {
+    "name": "Cà Phê Aha",
+    "lat": 21.01533,
+    "lon": 105.85806,
+    "type": "cafe",
+    "snap_m": 2.3
+  },
+  {
+    "name": "Cà Phê Almond",
+    "lat": 21.0137,
+    "lon": 105.86077,
+    "type": "cafe",
+    "snap_m": 4.1
+  },
+  {
+    "name": "Cà Phê Bibi",
+    "lat": 20.99744,
+    "lon": 105.85268,
+    "type": "cafe",
+    "snap_m": 17.6
+  },
+  {
+    "name": "Cà Phê Big One",
+    "lat": 21.00985,
+    "lon": 105.84778,
+    "type": "cafe",
+    "snap_m": 13.6
+  },
+  {
+    "name": "Cà Phê Chuối",
+    "lat": 21.01323,
+    "lon": 105.86171,
+    "type": "cafe",
+    "snap_m": 8.6
+  },
+  {
+    "name": "Cà Phê Fruits With Jogurt",
+    "lat": 21.00336,
+    "lon": 105.84995,
+    "type": "cafe",
+    "snap_m": 33.8
+  },
+  {
+    "name": "Cà Phê Góc Phố",
+    "lat": 21.00633,
+    "lon": 105.84576,
+    "type": "cafe",
+    "snap_m": 7.7
+  },
+  {
+    "name": "Cà Phê Hanoi 1990",
+    "lat": 21.01716,
+    "lon": 105.84141,
+    "type": "cafe",
+    "snap_m": 26.0
+  },
+  {
+    "name": "Cà Phê Hồ Thanh Nhàn",
+    "lat": 21.006,
+    "lon": 105.85902,
+    "type": "cafe",
+    "snap_m": 16.2
+  },
+  {
+    "name": "Cà Phê Infact",
+    "lat": 21.0089,
+    "lon": 105.84902,
+    "type": "cafe",
+    "snap_m": 7.9
+  },
+  {
+    "name": "Cà Phê Kin",
+    "lat": 21.01074,
+    "lon": 105.84578,
+    "type": "cafe",
+    "snap_m": 6.0
+  },
+  {
+    "name": "Cà Phê Kiến",
+    "lat": 21.00925,
+    "lon": 105.84772,
+    "type": "cafe",
+    "snap_m": 8.1
+  },
+  {
+    "name": "Cà Phê Maxx",
+    "lat": 21.00234,
+    "lon": 105.84477,
+    "type": "cafe",
+    "snap_m": 14.7
+  },
+  {
+    "name": "Cà Phê Quang",
+    "lat": 21.00469,
+    "lon": 105.85495,
+    "type": "cafe",
+    "snap_m": 3.4
+  },
+  {
+    "name": "Cà Phê StarBucks",
+    "lat": 21.01075,
+    "lon": 105.849,
+    "type": "cafe",
+    "snap_m": 5.0
+  },
+  {
+    "name": "Cà Phê Thái",
+    "lat": 21.01722,
+    "lon": 105.85037,
+    "type": "cafe",
+    "snap_m": 10.3
+  },
+  {
+    "name": "Cà Phê Thảo",
+    "lat": 21.001,
+    "lon": 105.85902,
+    "type": "cafe",
+    "snap_m": 1.9
+  },
+  {
+    "name": "Cà Phê Vân",
+    "lat": 21.00105,
+    "lon": 105.85995,
+    "type": "cafe",
+    "snap_m": 5.2
+  },
+  {
+    "name": "Cà phê 25",
+    "lat": 21.01189,
+    "lon": 105.84828,
+    "type": "cafe",
+    "snap_m": 9.5
+  },
+  {
+    "name": "Cà phê Hai Bốn",
+    "lat": 21.01866,
+    "lon": 105.84982,
+    "type": "cafe",
+    "snap_m": 15.3
+  },
+  {
+    "name": "Cộng Cà Phê",
+    "lat": 21.01062,
+    "lon": 105.84997,
+    "type": "cafe",
+    "snap_m": 21.1
+  },
+  {
+    "name": "Dương Cafe",
+    "lat": 20.99543,
+    "lon": 105.85459,
+    "type": "cafe",
+    "snap_m": 3.5
+  },
+  {
+    "name": "Gia Linh Coffee & Juice",
+    "lat": 21.01063,
+    "lon": 105.84985,
+    "type": "cafe",
+    "snap_m": 16.7
+  },
+  {
+    "name": "Góc Phố Cafe",
+    "lat": 21.0185,
+    "lon": 105.84996,
+    "type": "cafe",
+    "snap_m": 8.8
+  },
+  {
+    "name": "H+ Coffee",
+    "lat": 21.01664,
+    "lon": 105.8593,
+    "type": "cafe",
+    "snap_m": 68.2
+  },
+  {
+    "name": "Highlands Coffee",
+    "lat": 21.01137,
+    "lon": 105.84982,
+    "type": "cafe",
+    "snap_m": 23.9
+  },
+  {
+    "name": "Home Việt Coffee",
+    "lat": 21.01289,
+    "lon": 105.85044,
+    "type": "cafe",
+    "snap_m": 10.8
+  },
+  {
+    "name": "How Cafe",
+    "lat": 21.0139,
+    "lon": 105.84988,
+    "type": "cafe",
+    "snap_m": 19.7
+  },
+  {
+    "name": "Hùng Xồm Cafe",
+    "lat": 21.01501,
+    "lon": 105.85043,
+    "type": "cafe",
+    "snap_m": 9.5
+  },
+  {
+    "name": "KOPee coffee",
+    "lat": 21.00588,
+    "lon": 105.84565,
+    "type": "cafe",
+    "snap_m": 18.5
+  },
+  {
+    "name": "Lynh's Coffee & Tea",
+    "lat": 21.00939,
+    "lon": 105.85035,
+    "type": "cafe",
+    "snap_m": 13.3
+  },
+  {
+    "name": "MONO Coffee Lab",
+    "lat": 21.01074,
+    "lon": 105.84578,
+    "type": "cafe",
+    "snap_m": 86.1
+  },
+  {
+    "name": "Mành Cà phê",
+    "lat": 21.01655,
+    "lon": 105.85036,
+    "type": "cafe",
+    "snap_m": 8.1
+  },
+  {
+    "name": "Neo Cafe",
+    "lat": 21.0187,
+    "lon": 105.84959,
+    "type": "cafe",
+    "snap_m": 16.5
+  },
+  {
+    "name": "O'Coffee",
+    "lat": 21.01671,
+    "lon": 105.85036,
+    "type": "cafe",
+    "snap_m": 6.9
+  },
+  {
+    "name": "SID Coffee",
+    "lat": 21.01242,
+    "lon": 105.85042,
+    "type": "cafe",
+    "snap_m": 12.4
+  },
+  {
+    "name": "Simin Coffee",
+    "lat": 21.01186,
+    "lon": 105.85096,
+    "type": "cafe",
+    "snap_m": 8.3
+  },
+  {
+    "name": "TOKA COFFEE",
+    "lat": 21.01594,
+    "lon": 105.85419,
+    "type": "cafe",
+    "snap_m": 10.4
+  },
+  {
+    "name": "The Coffee House",
+    "lat": 21.01329,
+    "lon": 105.84988,
+    "type": "cafe",
+    "snap_m": 12.3
+  },
+  {
+    "name": "The N°3 coffee",
+    "lat": 21.01987,
+    "lon": 105.84214,
+    "type": "cafe",
+    "snap_m": 5.0
+  },
+  {
+    "name": "The Root Boardgame Cafe",
+    "lat": 21.01681,
+    "lon": 105.85247,
+    "type": "cafe",
+    "snap_m": 12.5
+  },
+  {
+    "name": "Tonkin Coffee",
+    "lat": 21.01506,
+    "lon": 105.84989,
+    "type": "cafe",
+    "snap_m": 7.8
+  },
+  {
+    "name": "Vintage 1976 Cafe",
+    "lat": 21.0118,
+    "lon": 105.8508,
+    "type": "cafe",
+    "snap_m": 9.2
+  },
+  {
+    "name": "Wheel Coffee Adventure",
+    "lat": 21.00984,
+    "lon": 105.84989,
+    "type": "cafe",
+    "snap_m": 13.7
+  },
+  {
+    "name": "Đạt Coffee & Tea",
+    "lat": 21.01352,
+    "lon": 105.84915,
+    "type": "cafe",
+    "snap_m": 10.8
+  },
+  {
+    "name": "Trường Cao đẳng Nghề Bách Khoa Hà Nội",
+    "lat": 21.0045,
+    "lon": 105.84736,
+    "type": "college",
+    "snap_m": 16.6
+  },
+  {
+    "name": "Đồ ăn AnAn Juice House",
+    "lat": 21.01281,
+    "lon": 105.84913,
+    "type": "fast_food",
+    "snap_m": 15.9
+  },
+  {
+    "name": "Đồ ăn Banh Mi",
+    "lat": 20.99057,
+    "lon": 105.84795,
+    "type": "fast_food",
+    "snap_m": 6.0
+  },
+  {
+    "name": "Đồ ăn Banh doner",
+    "lat": 21.01744,
+    "lon": 105.84169,
+    "type": "fast_food",
+    "snap_m": 16.6
+  },
+  {
+    "name": "Đồ ăn Binbo",
+    "lat": 21.01538,
+    "lon": 105.85041,
+    "type": "fast_food",
+    "snap_m": 7.3
+  },
+  {
+    "name": "Đồ ăn Bánh Cuốn Bà Hoanh",
+    "lat": 21.01343,
+    "lon": 105.84957,
+    "type": "fast_food",
+    "snap_m": 12.8
+  },
+  {
+    "name": "Đồ ăn Bánh Mi Phó",
+    "lat": 21.0193,
+    "lon": 105.84415,
+    "type": "fast_food",
+    "snap_m": 14.6
+  },
+  {
+    "name": "Đồ ăn Bánh Mì Giò Chả Dũng Hạnh",
+    "lat": 21.00975,
+    "lon": 105.84998,
+    "type": "fast_food",
+    "snap_m": 14.5
+  },
+  {
+    "name": "Đồ ăn Bánh Mì Phố Huế",
+    "lat": 21.01614,
+    "lon": 105.85147,
+    "type": "fast_food",
+    "snap_m": 24.3
+  },
+  {
+    "name": "Đồ ăn Bánh Mỳ Ngon",
+    "lat": 21.01537,
+    "lon": 105.8492,
+    "type": "fast_food",
+    "snap_m": 11.3
+  },
+  {
+    "name": "Đồ ăn Bánh Mỳ Pate Cô Thu",
+    "lat": 21.015,
+    "lon": 105.84989,
+    "type": "fast_food",
+    "snap_m": 7.1
+  },
+  {
+    "name": "Đồ ăn Bánh mì Bà Tại - Ăn là nhớ",
+    "lat": 20.99859,
+    "lon": 105.87333,
+    "type": "fast_food",
+    "snap_m": 8.6
+  },
+  {
+    "name": "Đồ ăn Bảo Vy",
+    "lat": 21.01063,
+    "lon": 105.8497,
+    "type": "fast_food",
+    "snap_m": 14.5
+  },
+  {
+    "name": "Đồ ăn Căng-tin",
+    "lat": 21.00046,
+    "lon": 105.84536,
+    "type": "fast_food",
+    "snap_m": 100.0
+  },
+  {
+    "name": "Đồ ăn Dairy Queen",
+    "lat": 20.99429,
+    "lon": 105.86907,
+    "type": "fast_food",
+    "snap_m": 15.3
+  },
+  {
+    "name": "Đồ ăn Domino's",
+    "lat": 21.01357,
+    "lon": 105.85119,
+    "type": "fast_food",
+    "snap_m": 9.8
+  },
+  {
+    "name": "Đồ ăn Donar Kebab Antony",
+    "lat": 21.01687,
+    "lon": 105.8507,
+    "type": "fast_food",
+    "snap_m": 14.8
+  },
+  {
+    "name": "Đồ ăn Hudu Sweet",
+    "lat": 21.01397,
+    "lon": 105.84989,
+    "type": "fast_food",
+    "snap_m": 14.5
+  },
+  {
+    "name": "Đồ ăn KFC",
+    "lat": 21.00896,
+    "lon": 105.85152,
+    "type": "fast_food",
+    "snap_m": 15.4
+  },
+  {
+    "name": "Đồ ăn Lotteria",
+    "lat": 21.00181,
+    "lon": 105.84524,
+    "type": "fast_food",
+    "snap_m": 17.3
+  },
+  {
+    "name": "Đồ ăn Lạ Dessert",
+    "lat": 21.01344,
+    "lon": 105.84972,
+    "type": "fast_food",
+    "snap_m": 14.3
+  },
+  {
+    "name": "Đồ ăn McDonald's",
+    "lat": 20.99733,
+    "lon": 105.86771,
+    "type": "fast_food",
+    "snap_m": 22.6
+  },
+  {
+    "name": "Đồ ăn Pepper Lunch",
+    "lat": 21.01224,
+    "lon": 105.85042,
+    "type": "fast_food",
+    "snap_m": 20.1
+  },
+  {
+    "name": "Đồ ăn Popeyes",
+    "lat": 21.00198,
+    "lon": 105.84627,
+    "type": "fast_food",
+    "snap_m": 3.6
+  },
+  {
+    "name": "Đồ ăn Quán Chè Mười Sáu",
+    "lat": 21.01802,
+    "lon": 105.85289,
+    "type": "fast_food",
+    "snap_m": 6.3
+  },
+  {
+    "name": "Đồ ăn Thanh Vân Bánh Cuốn Gia Truyền",
+    "lat": 21.01823,
+    "lon": 105.852,
+    "type": "fast_food",
+    "snap_m": 1.7
+  },
+  {
+    "name": "Đồ ăn The Pizza Company",
+    "lat": 21.01185,
+    "lon": 105.84947,
+    "type": "fast_food",
+    "snap_m": 17.9
+  },
+  {
+    "name": "Đồ ăn Youone Hotdog",
+    "lat": 20.99767,
+    "lon": 105.84562,
+    "type": "fast_food",
+    "snap_m": 35.4
+  },
+  {
+    "name": "Cây xăng Eneos",
+    "lat": 21.00291,
+    "lon": 105.85481,
+    "type": "fuel",
+    "snap_m": 9.2
+  },
+  {
+    "name": "Cây xăng Total",
+    "lat": 21.00932,
+    "lon": 105.85465,
+    "type": "fuel",
+    "snap_m": 7.7
+  },
+  {
+    "name": "Cửa hàng xăng dầu Bách Khoa",
+    "lat": 21.00193,
+    "lon": 105.84929,
+    "type": "fuel",
+    "snap_m": 7.8
+  },
+  {
+    "name": "Petrolimex",
+    "lat": 21.0074,
+    "lon": 105.87004,
+    "type": "fuel",
+    "snap_m": 23.1
+  },
+  {
+    "name": "Trạm xăng dầu số 9 - CTXD Quân đội",
+    "lat": 21.01843,
+    "lon": 105.86127,
+    "type": "fuel",
+    "snap_m": 11.4
+  },
+  {
+    "name": "Bệnh viện Bưu Điện",
+    "lat": 21.01104,
+    "lon": 105.85223,
+    "type": "hospital",
+    "snap_m": 27.1
+  },
+  {
+    "name": "Bệnh viện Dệt May",
+    "lat": 20.99629,
+    "lon": 105.86459,
+    "type": "hospital",
+    "snap_m": 36.0
+  },
+  {
+    "name": "Bệnh viện Hữu Nghị",
+    "lat": 21.01566,
+    "lon": 105.86247,
+    "type": "hospital",
+    "snap_m": 73.9
+  },
+  {
+    "name": "Bệnh viện Mắt Kỹ thuật cao Hà Nội",
+    "lat": 21.01699,
+    "lon": 105.84948,
+    "type": "hospital",
+    "snap_m": 20.6
+  },
+  {
+    "name": "Bệnh viện Mắt Quốc tế DND",
+    "lat": 21.01298,
+    "lon": 105.84987,
+    "type": "hospital",
+    "snap_m": 20.6
+  },
+  {
+    "name": "Bệnh viện Mắt Trung ương",
+    "lat": 21.01758,
+    "lon": 105.84988,
+    "type": "hospital",
+    "snap_m": 30.8
+  },
+  {
+    "name": "Bệnh viện Mắt Việt Nhật",
+    "lat": 21.01458,
+    "lon": 105.85044,
+    "type": "hospital",
+    "snap_m": 14.3
+  },
+  {
+    "name": "Bệnh viện Phổi Hà Nội",
+    "lat": 21.00334,
+    "lon": 105.85789,
+    "type": "hospital",
+    "snap_m": 50.9
+  },
+  {
+    "name": "Bệnh viện Phụ sản Hà Nội (cơ sở 2)",
+    "lat": 21.01092,
+    "lon": 105.86042,
+    "type": "hospital",
+    "snap_m": 22.3
+  },
+  {
+    "name": "Bệnh viện Tâm thần ban ngày Mai Hương",
+    "lat": 20.99868,
+    "lon": 105.85128,
+    "type": "hospital",
+    "snap_m": 11.1
+  },
+  {
+    "name": "Bệnh viện Ung bướu Hà Nội",
+    "lat": 21.00458,
+    "lon": 105.86009,
+    "type": "hospital",
+    "snap_m": 75.6
+  },
+  {
+    "name": "Bệnh viện Y học cổ truyền Trung ương",
+    "lat": 21.0161,
+    "lon": 105.84841,
+    "type": "hospital",
+    "snap_m": 12.5
+  },
+  {
+    "name": "Bệnh viện Đa khoa Hồng Phát",
+    "lat": 21.01821,
+    "lon": 105.84163,
+    "type": "hospital",
+    "snap_m": 19.1
+  },
+  {
+    "name": "Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+    "lat": 20.996,
+    "lon": 105.86599,
+    "type": "hospital",
+    "snap_m": 76.7
+  },
+  {
+    "name": "Trung tâm thương mại Chợ Mơ",
+    "lat": 20.99694,
+    "lon": 105.85006,
+    "type": "mall",
+    "snap_m": 55.0
+  },
+  {
+    "name": "Vincom Center Bà Triệu",
+    "lat": 21.01131,
+    "lon": 105.84982,
+    "type": "mall",
+    "snap_m": 11.0
+  },
+  {
+    "name": "Vincom Mega Mall Times City",
+    "lat": 20.99482,
+    "lon": 105.86907,
+    "type": "mall",
+    "snap_m": 52.2
+  },
+  {
+    "name": "Chợ Bách Khoa",
+    "lat": 21.00181,
+    "lon": 105.8454,
+    "type": "marketplace",
+    "snap_m": 17.0
+  },
+  {
+    "name": "Chợ Hôm",
+    "lat": 21.01681,
+    "lon": 105.85178,
+    "type": "marketplace",
+    "snap_m": 38.2
+  },
+  {
+    "name": "Chợ Quỳnh Mai",
+    "lat": 20.99889,
+    "lon": 105.86136,
+    "type": "marketplace",
+    "snap_m": 26.2
+  },
+  {
+    "name": "Chợ Viet Mark",
+    "lat": 21.00663,
+    "lon": 105.86132,
+    "type": "marketplace",
+    "snap_m": 12.8
+  },
+  {
+    "name": "Chợ Đồng Tâm",
+    "lat": 20.9949,
+    "lon": 105.84614,
+    "type": "marketplace",
+    "snap_m": 31.3
+  },
+  {
+    "name": "Công viên hồ Cần",
+    "lat": 20.99672,
+    "lon": 105.87482,
+    "type": "park",
+    "snap_m": 52.2
+  },
+  {
+    "name": "Vườn hoa Pasteur",
+    "lat": 21.01422,
+    "lon": 105.85982,
+    "type": "park",
+    "snap_m": 34.1
+  },
+  {
+    "name": "Vườn hoa Thi Sách",
+    "lat": 21.0142,
+    "lon": 105.8544,
+    "type": "park",
+    "snap_m": 16.6
+  },
+  {
+    "name": "Vườn hoa Tăng Bạt Hổ",
+    "lat": 21.01845,
+    "lon": 105.85849,
+    "type": "park",
+    "snap_m": 11.6
+  },
+  {
+    "name": "Vườn hoa Yersin",
+    "lat": 21.01331,
+    "lon": 105.86058,
+    "type": "park",
+    "snap_m": 18.8
+  },
+  {
+    "name": "Vườn hoa ao cá Bác Hồ (Vĩnh Tuy)",
+    "lat": 20.99586,
+    "lon": 105.87268,
+    "type": "park",
+    "snap_m": 87.5
+  },
+  {
+    "name": "Vườn hoa Đàn Nam",
+    "lat": 21.01086,
+    "lon": 105.8498,
+    "type": "park",
+    "snap_m": 21.6
+  },
+  {
+    "name": "Nhà thuốc 132 Bà Triệu",
+    "lat": 21.01715,
+    "lon": 105.84985,
+    "type": "pharmacy",
+    "snap_m": 20.8
+  },
+  {
+    "name": "Nhà thuốc Guardian",
+    "lat": 20.99438,
+    "lon": 105.86907,
+    "type": "pharmacy",
+    "snap_m": 19.8
+  },
+  {
+    "name": "Nhà thuốc Hapharco",
+    "lat": 21.01149,
+    "lon": 105.84828,
+    "type": "pharmacy",
+    "snap_m": 17.5
+  },
+  {
+    "name": "Nhà thuốc Hà Thu",
+    "lat": 21.01358,
+    "lon": 105.84988,
+    "type": "pharmacy",
+    "snap_m": 12.9
+  },
+  {
+    "name": "Nhà thuốc Hồng Đăng 5",
+    "lat": 21.01397,
+    "lon": 105.85102,
+    "type": "pharmacy",
+    "snap_m": 13.7
+  },
+  {
+    "name": "Nhà thuốc Long Châu",
+    "lat": 21.0098,
+    "lon": 105.85073,
+    "type": "pharmacy",
+    "snap_m": 17.3
+  },
+  {
+    "name": "Nhà thuốc Long Tâm",
+    "lat": 21.00204,
+    "lon": 105.84148,
+    "type": "pharmacy",
+    "snap_m": 3.0
+  },
+  {
+    "name": "Nhà thuốc Omipharma",
+    "lat": 20.99416,
+    "lon": 105.86907,
+    "type": "pharmacy",
+    "snap_m": 2.6
+  },
+  {
+    "name": "Nhà thuốc Phương Chính",
+    "lat": 21.01495,
+    "lon": 105.85096,
+    "type": "pharmacy",
+    "snap_m": 8.0
+  },
+  {
+    "name": "Nhà thuốc số 5 Long Tâm",
+    "lat": 21.00076,
+    "lon": 105.84142,
+    "type": "pharmacy",
+    "snap_m": 10.1
+  },
+  {
+    "name": "Trường Đại học Kinh doanh và Công nghệ Hà Nội",
+    "lat": 21.00015,
+    "lon": 105.87837,
+    "type": "university",
+    "snap_m": 59.1
+  },
+  {
+    "name": "Trường Đại học Kinh tế Kỹ thuật Công nghiệp",
+    "lat": 20.99573,
+    "lon": 105.86599,
+    "type": "university",
+    "snap_m": 39.1
+  },
+  {
+    "name": "Trường Đại học Mở Hà Nội",
+    "lat": 21.00127,
+    "lon": 105.84775,
+    "type": "university",
+    "snap_m": 21.3
+  },
+  {
+    "name": "Trường Đại học Xây dựng Hà Nội",
+    "lat": 21.00276,
+    "lon": 105.84262,
+    "type": "university",
+    "snap_m": 81.9
+  },
+  {
+    "name": "Trường Đại học Y Hà Nội",
+    "lat": 21.01409,
+    "lon": 105.85918,
+    "type": "university",
+    "snap_m": 31.7
+  },
+  {
+    "name": "Đại học Bách khoa Hà Nội",
+    "lat": 21.0049,
+    "lon": 105.84564,
+    "type": "university",
+    "snap_m": 42.6
+  },
+  {
+    "name": "Đại học Kinh tế Quốc dân",
+    "lat": 20.99971,
+    "lon": 105.8454,
+    "type": "university",
+    "snap_m": 41.1
+  }
+]

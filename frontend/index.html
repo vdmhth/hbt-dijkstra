@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shortest Path — Hai Ba Trung District (Dijkstra)</title>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <div id="app">
+    <aside id="panel">
+      <header>
+        <h1>Dijkstra · Hai Ba Trung</h1>
+        <p id="meta-line" class="muted">Loading graph…</p>
+      </header>
+<!--first ô-->
+      <section class="card">
+        <h2>1 · Pick two points</h2>
+        <p class="hint" id="pick-hint">Click the map: 1st click sets <b>start</b>, 2nd sets <b>end</b>.</p>
+
+        <div class="point-row">
+          <span class="dot start"></span>
+          <label>Start</label>
+          <input id="src-lat" type="number" step="any" placeholder="lat" />
+          <input id="src-lon" type="number" step="any" placeholder="lon" />
+        </div>
+        <div class="point-row">
+          <span class="dot end"></span>
+          <label>End</label>
+          <input id="dst-lat" type="number" step="any" placeholder="lat" />
+          <input id="dst-lon" type="number" step="any" placeholder="lon" />
+        </div>
+
+        <div class="row">
+          <label for="sample">Samples</label>
+          <select id="sample">
+            <option value="">— quick pair —</option>
+          </select>
+        </div>
+        <div class="row">
+          <label for="place-start">From</label>
+          <select id="place-start">
+            <option value="">— start landmark —</option>
+          </select>
+        </div>
+        <div class="row">
+          <label for="place-end">To</label>
+          <select id="place-end">
+            <option value="">— end landmark —</option>
+          </select>
+        </div>
+        <button id="btn-reset-points" class="ghost small">Clear points</button>
+      </section>
+<!---->
+      <section class="card">
+        <h2>2 · Weight &amp; routing</h2>
+
+        <div class="row weights">
+          <label><input type="radio" name="weight" value="length" checked /> Shortest (length)</label>
+          <label><input type="radio" name="weight" value="travel_time" /> Fastest (time)</label>
+        </div>
+
+        <div class="row">
+          <label for="snap-mode">Snap mode</label>
+          <select id="snap-mode">
+            <option value="nearest_node" selected>Nearest node (default)</option>
+            <option value="virtual_node">Virtual node on nearest edge</option>
+          </select>
+        </div>
+
+        <p class="hint">
+          <b>Nearest node</b> is the default mode.
+          <b>Virtual node</b> is the mode that reduces the gap between the click and the road.
+        </p>
+
+        <button id="btn-route" class="primary" disabled>Find path</button>
+
+        <div class="row">
+          <label for="facility-type">Nearest</label>
+          <select id="facility-type"></select>
+          <button id="btn-nearest" class="ghost small">Find from start</button>
+        </div>
+
+        <p id="status" class="status"></p>
+      </section>
+<!---->
+      <section class="card" id="result-card" hidden>
+        <h2>3 · Result</h2>
+        <dl class="result">
+          <dt>Criterion</dt><dd id="r-criterion">—</dd>
+          <dt>Start</dt><dd id="r-src">—</dd>
+          <dt>End</dt><dd id="r-dst">—</dd>
+          <dt>Total length</dt><dd id="r-len">—</dd>
+          <dt>Est. time</dt><dd id="r-time">—</dd>
+          <dt>Nodes on path</dt><dd id="r-nodes">—</dd>
+          <dt>Nodes settled</dt><dd id="r-visited">—</dd>
+        </dl>
+      </section>
+<!---->
+      <section class="card" id="poi-card" hidden>
+        <h2>4 · POIs along the route</h2>
+        <p class="hint">Amenities you can reach with only a short detour off the route just found. The number is how far you leave the route, on real roads, to get there.</p>
+        <div class="row">
+          <label for="poi-type">Type</label>
+          <select id="poi-type"><option value="">— all —</option></select>
+        </div>
+        <div class="row">
+          <label for="poi-radius">Max detour</label>
+          <select id="poi-radius">
+            <option value="100">100 m</option>
+            <option value="200" selected>200 m</option>
+            <option value="350">350 m</option>
+          </select>
+          <button id="btn-poi" class="ghost small">Show</button>
+        </div>
+        <ul id="poi-list" class="poi-list"></ul>
+      </section>
+<!---->
+      <section class="card" id="sim-card" hidden>
+        <h2>5 · Dijkstra simulation</h2>
+        <div class="legend">
+          <span><i class="sw settled"></i> settled</span>
+          <span><i class="sw current"></i> current</span>
+          <span><i class="sw updated"></i> updated</span>
+          <span><i class="sw relax"></i> relaxing edge</span>
+          <span><i class="sw tree"></i> SPT tree</span>
+          <label class="spt-toggle"><input type="checkbox" id="show-spt" checked /> SPT + dist</label>
+        </div>
+        <div class="sim-controls">
+          <button id="btn-sim-reset" class="ghost">⏮</button>
+          <button id="btn-sim-prev" class="ghost">◀</button>
+          <button id="btn-sim-play" class="primary">▶ Play</button>
+          <button id="btn-sim-next" class="ghost">▶</button>
+        </div>
+        <div class="row">
+          <label for="speed">Speed</label>
+          <input id="speed" type="range" min="1" max="200" value="40" />
+        </div>
+        <p class="step-counter"><span id="step-idx">0</span> / <span id="step-total">0</span> steps</p>
+          <div class="step-log-wrap">
+            <table class="step-log" id="step-log">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Current node</th>
+                  <th>Final dist</th>
+                  <th>Edges scanned</th>
+                  <th>Updated</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <p class="hint" id="log-hint" hidden>Click a row to jump to that step and see the details below.</p>
+        <pre class="pseudo" id="pseudo"><code><span class="pl" data-line="1">dist[source] = 0; every other vertex = ∞</span>
+<span class="pl" data-line="2">push (0, source) into the priority queue</span>
+<span class="pl" data-line="3">while queue not empty:</span>
+<span class="pl" data-line="4">    (d, u) = pop the element with the smallest d</span>
+<span class="pl" data-line="5">    if u is already settled → skip, continue the loop</span>
+<span class="pl" data-line="6">    settle u: dist[u] = d is the shortest distance to u</span>
+<span class="pl" data-line="7">    for each edge (u → v, weight w) out of u:</span>
+<span class="pl" data-line="8">        candidate = dist[u] + w</span>
+<span class="pl" data-line="9">        if candidate &lt; dist[v]:</span>
+<span class="pl" data-line="10">            dist[v] = candidate; push (candidate, v) into the queue</span>
+<span class="pl" data-line="11">    if u == target: break</span></code></pre>
+
+        <p id="narration" class="narration"></p>
+
+        <div class="frontier-tables">
+          <div>
+            <h4>Edges relaxed from current node</h4>
+            <table id="relax-table" class="mini-table">
+              <thead><tr><th>Neighbor</th><th>w</th><th>new dist</th><th>Result</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <div>
+            <h4>Top of priority queue</h4>
+            <table id="frontier-table" class="mini-table">
+              <thead><tr><th>Node</th><th>tentative dist</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </aside>
+
+    <main id="map"></main>
+  </div>
+
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+  <script src="/js/api.js"></script>
+  <script src="/js/map.js"></script>
+  <script src="/js/anim.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
