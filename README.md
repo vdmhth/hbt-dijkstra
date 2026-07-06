@@ -115,7 +115,6 @@ frontend/
   js/app.js        UI logic, request orchestration, rendering
 data/
   hbt_drive_network.graphml   bundled HBT driving graph (1772 nodes / 4084 edges)
-  demo_network.graphml        tiny fallback graph for tests/dev
   places.json                 landmark / POI samples
   data.py, make_places.py     data-generation scripts
 tests/
