@@ -119,7 +119,9 @@ data/
   places.json                 landmark / POI samples
   data.py, make_places.py     data-generation scripts
 tests/
-  test_dijkstra.py            correctness tests (see note below)
+  test_dijkstra.py           
+  check.py
+  bench.py
 ```
 
 ---
@@ -155,14 +157,6 @@ Example `/route` body:
 ```bash
 pytest -q
 ```
-
-`tests/test_dijkstra.py` checks the from-scratch Dijkstra against `networkx`
-**for validation only** — it confirms that the hand-written algorithm returns the
-same cost / reachability as a reference implementation on random pairs, plus a
-trivial known graph, a no-path case, and a one-way-respect check. `networkx` is
-**never** used to compute a route in the application itself; it is used only to
-read GraphML files and, in the test suite, as an oracle.
-
 ---
 
 ## Assignment compliance
